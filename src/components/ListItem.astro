@@ -1,0 +1,16 @@
+---
+import CheckIcon from "./CheckIcon.astro";
+
+interface Props {
+	text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<div class="display flex gap-2 items-center">
+	<CheckIcon />
+    <p class="subtitle text-xs text-left font-medium md:text-xl">
+        {text}
+	</p>
+</div>
