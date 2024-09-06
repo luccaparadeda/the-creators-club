@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "background-1-mob": 'url("/background-section.jpeg")',
-        "background-2-mob": 'url("/last-background-image-mob.jpg")',
-        "background-1-desk": 'url("/background-section-desk.jpg")',
-        "background-2-desk": 'url("/last-background-image-desk.jpg")',
+        "background-1-mob": 'url("/background-section.png")',
+        "background-2-mob": 'url("/last-background-image-mob.png")',
+        "background-1-desk": 'url("/background-section-desk.png")',
+        "background-2-desk": 'url("/last-background-image-desk.png")',
       },
       boxShadow: {
         "offwhite-top": "0 -10px 10px #F8F8F8",
